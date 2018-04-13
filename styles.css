@@ -1,0 +1,30 @@
+/* General styles */
+
+h1, h2, body, button{
+
+	font-family: 'Catamaran', sans-serif;
+	
+}
+
+h1{
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+
+h2{
+	font-weight: 400;
+	margin-top: 0px;
+	font-size: 1.2em;
+}
+
+body, td {
+
+	font-weight: 200;	
+}
+
+/* Input styles */
+
+input{
+	width:40px; 
+	height:40px; 
+}
