@@ -35,7 +35,19 @@ $(document).ready(function () {
 
 		var totalCostMoneyFormat = format(totalCost,"$");				// Format the total to look like a dollar amount
 
-		$("#totalCostSlot").find("span").text(totalCostMoneyFormat); 	// Put the result into a span
+		$("#totalCostSlot").find("span").text(totalCostMoneyFormat+"."); 	// Put the result into a span
+
+	});
+
+	$(".reset").click(function () {
+
+		$("input").each(function () {
+
+			$(this).removeAttr('checked');
+			$("span").html("");
+
+
+			});
 
 	});
 

@@ -10,6 +10,8 @@
 
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
    <title>The cost of mobility</title>
 
   </head>
@@ -19,20 +21,75 @@
     <h1>The cost of mobility</h1>
     <h2>By: Jaclyn Jeffrey-Wilensky</h2>
 
+    <div class=bannerImage>
+      <img src="images/banner.jpg">
+      <div class="imgCaption"><i>A bilateral lower-limb amputee stands on two prosthetic legs. (<a href="https://www.flickr.com/photos/39955793@N07/5059901565/">Source</a>)</i>
+      </div>
+    </div>
+
     <div class="text">
       <p>
-        blah
+        In 1999, microprocessor prosthetics took the limb loss community by storm. Microprocessor knees, in particular, have helped transfemoral amputees not only walk again, but also run, climb, and even ski.
       </p>
 
        <p>
-        blah
+        “It’s not just the state of the art for technology,” said Brenda Novak, an above-knee amputee who wears a C-Leg microprocessor knee manufactured by Ottobock. “It’s the state of the art for meeting the needs of someone who is relatively active.”
+      </p>
+
+
+       <p>
+        In addition to allowing her to do all the things she loved before her amputation, Novak explained, microprocessor prosthetics have special technology that makes it harder for users to trip and fall.
+      </p>
+
+
+       <p>
+        But these features come at a cost, Brenda and other amputees said. Mid-range microprocessor knees have a sticker price of $50,000, plus or minus several thousand depending on what other accessories amputees need. Highly sophisticated knees, like the X3, which was developed for use by active duty military personnel, cost around $120,000.
+      </p>
+
+
+       <p>
+        Medicare covers microprocessor knees for people who are moderately active. Not so for Novak and for others on private insurance, she said. 
+      </p>
+
+       <p>
+        “I have to pay 30% coinsurance, not including my annual deductible, for any prosthetics,” she said. “So my C-Leg that time around cost $63,000. And so my out of pocket for that leg was $21,000.”
+      </p>
+
+
+       <p>
+        Karen Lundquist, Chief Communications Officer of the Amputee Coalition, is familiar with this dilemma.
+      </p>
+
+
+       <p>
+        “It’s incredibly rare to get coverage for specialized legs,” she said.
+      </p>
+
+      <p>
+        According to the Amputee Coalition, 50% of amputees do not end up using any prosthetic at all. Some of these people don’t want one, Lundquist explained. But others are simply unable to afford the prosthetics they need.
+      </p>
+
+      <p>
+        Novak says she was only able to afford her C-Leg thanks to the personal injury lawsuit that followed her amputation. For her, the C-Leg has been worth every penny.
+      </p>
+
+      <p>
+        “Otherwise I would’ve had to settle for a prosthetic that was less suited to my needs specifically,” she said. “ It would have been a mechanical knee that didn’t have the same safety features, that wouldn’t allow me to walk downstairs step over step. It wouldn’t allow me to walk down a ramp, I’d have to go sideways or go slowly or something.”
+      </p>
+
+      <p>
+        When choosing between sophisticated microprocessor knees and clunky mechanical knees, users must ask themselves: Is my mobility worth the money? What types of movement can I afford? 
+      </p>
+
+      <p>
+        Thanks to the Medicare reimbursement codes provided by Ottobock for their microprocessor prosthetics, we can take a stab at answering that second question. Use the calculator below to find out the price tag for your own mobility.
       </p>
 
     </div>
 
    <div class="calc-container">
 
-     <h2>Do you want to...</h2>
+     <h2 class="calcHed">Do you want to...</h2>
      <table>
                 <tr>
                     <td><input type="checkbox" value=1020.64></td>
@@ -84,16 +141,20 @@
                 </tr>
 
             </table>
+
+   
+        <button class="calculate">Calculate</button>
+
+        <button class="reset">Reset</button>
+    
+
+
+      <div id="totalCostSlot">
+        <h2 class="calcHed">Your prosthetic could cost as much as <span></span></h2>
+      </div>
   </div>
 
-  <div class="buttonContainer">
-    <button class="calculate">Calculate</button>
-  </div>
-
-
-  <div id="totalCostSlot">
-    Your prosthetic could cost as much as <span>_________</span>.
-  </div>
+  
     
   </body>
 </html>

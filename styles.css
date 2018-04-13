@@ -6,15 +6,26 @@ h1, h2, body, button{
 	
 }
 
+h1, h2{
+	text-align: center;
+}
+
 h1{
 	font-weight: 700;
 	margin-bottom: 0px;
+	line-height: 1em;
 }
 
 h2{
 	font-weight: 400;
 	margin-top: 0px;
+	margin-bottom: 0px;
 	font-size: 1.2em;
+}
+
+.calcHed{
+	text-align: left;
+	max-width: 600px;
 }
 
 body, td {
@@ -22,9 +33,139 @@ body, td {
 	font-weight: 200;	
 }
 
+.text{
+
+	text-align: left;
+	margin: 0px auto;
+}
+
+/* Text styles for larger screens */
+@media screen and (min-width: 700px) {
+
+  .text{
+
+  	max-width: 600px;
+
+  }
+
+ }
+
+.bannerImage{
+
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+}
+
+.imgCaption{
+	font-size: .9em;
+}
+
+/* Img styles for larger screens */
+@media (min-width: 700px) {
+
+  .img{
+
+  	max-width: 700px;
+
+  }
+
+ }
+
+
 /* Input styles */
 
 input{
-	width:40px; 
-	height:40px; 
+	width:35px; 
+	height:35px; 
 }
+
+/* Input styles for larger screens */
+
+@media screen and (min-width: 700px) {
+
+  input{
+  	width:20px; 
+	height:20px; 
+
+  } 	
+
+
+  }
+
+/* Button styles */
+
+button{
+
+	background-color: #4279a3; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+	}
+
+.reset{
+	padding: 15px 44px;
+	margin-left: 10px;
+}
+
+  
+
+/* table styles */
+
+.calc-container{
+	font-size: 1em;
+	margin: 0px auto;
+	padding: 5px;
+	text-align: left;
+}
+
+table{
+	border: 2px solid #4279a3;
+	padding: 5px;
+	/*margin: 0px auto;*/
+}
+
+
+td{
+
+	vertical-align: bottom;
+	line-height: 1.1;
+	font-weight: 400;
+
+}
+
+/* Table styles for larger screens */
+@media screen and (min-width: 700px) {
+  .calc-container{
+  	max-width: 600px;
+
+  }	
+  
+
+  td{
+  	vertical-align: middle;   	
+
+
+  }
+ }
+
+  /* Total cost section styles */
+
+  #totalCostSlot{
+  	font-weight: 400;	
+  }
+
+  span{
+  	font-weight: bolder;
+  }
+  
+
